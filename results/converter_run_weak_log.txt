@@ -1,0 +1,7 @@
+q_static 0.07937483047974374
+one run time 5.654536962509155
+kappa 1.5 seeds 20
+static pre_trans 0.711±0.019 pre 0.951±0.002 first1000 0.215±0.128 later 0.207±0.022 width_pre 0.079 width_post 0.079
+rolling pre_trans 0.712±0.018 pre 0.951±0.001 first1000 0.799±0.052 later 0.940±0.004 width_pre 0.080 width_post 0.343
+ACI pre_trans 0.713±0.018 pre 0.950±0.000 first1000 0.956±0.004 later 0.950±0.000 width_pre 0.080 width_post 0.336
+delay ms 9.0±10.0 nan 0 false alarm runs 0 ACI sat frac 0.001

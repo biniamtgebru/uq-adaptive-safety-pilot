@@ -1,0 +1,3 @@
+plain cov all 0.951  trans 0.720±0.024  steady 0.957 | radius all 0.079 trans 0.079 steady 0.079
+ens-std cov all 0.952  trans 1.000±0.001  steady 0.950 | radius all 0.092 trans 0.402 steady 0.084
+phys (dv) cov all 0.950  trans 0.987±0.004  steady 0.949 | radius all 0.084 trans 0.273 steady 0.079

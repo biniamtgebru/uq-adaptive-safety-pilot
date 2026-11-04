@@ -1,0 +1,12 @@
+q_static 0.0229 thresholds {'P': 5.0, 'frozen': 0.475, 'naive': 0.425, 'alpha': 0.067}
+one run 1.2507295608520508
+kappa 0.79 normalized True seeds 30
+static  pre 0.952±0.012  pre_aggr 1.000±0.000  first200 0.918±0.048  later 0.918±0.009  width pre 0.0229 post 0.0229
+rolling pre 0.943±0.004  pre_aggr 0.998±0.001  first200 0.913±0.059  later 0.950±0.002  width pre 0.0222 post 0.0254
+ACI     pre 0.950±0.001  pre_aggr 0.995±0.002  first200 0.953±0.022  later 0.950±0.001  width pre 0.0224 post 0.0252
+block-cov std 0.086 vs iid 0.034
+monitor frozen  detect 27/30  delay median 82.55 s (IQR 42.70-154.18)  false-alarm events/run 0.27  (runs with any: 7/30)
+/mnt/user-data/outputs/uq-adaptive-safety-pilot/scripts/uav_run.py:30: RuntimeWarning: All-NaN slice encountered
+  print('monitor %-7s detect %d/%d  delay median %.2f s (IQR %.2f-%.2f)  false-alarm events/run %.2f  (runs with any: %d/%d)'%(nm,np.isfinite(d).sum(),nseeds,np.nanmedian(d),np.nanpercentile(d,25) if np.isfinite(d).any() else np.nan,np.nanpercentile(d,75) if np.isfinite(d).any() else np.nan,np.mean([x['fa_'+nm] for x in R_]),sum(1 for x in R_ if x['fa_'+nm]>0),nseeds))
+monitor naive   detect 0/30  delay median nan s (IQR nan-nan)  false-alarm events/run 0.00  (runs with any: 0/30)
+monitor alpha   detect 5/30  delay median 112.20 s (IQR 77.85-239.20)  false-alarm events/run 0.57  (runs with any: 13/30)

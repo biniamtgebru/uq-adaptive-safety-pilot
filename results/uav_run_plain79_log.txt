@@ -1,0 +1,10 @@
+q_static 0.0437 thresholds {'P': 5.0, 'frozen': 0.3, 'naive': 0.2, 'alpha': 0.051}
+one run 0.668039083480835
+kappa 0.79 normalized False seeds 30
+static  pre 0.949±0.004  pre_aggr 0.935±0.007  first200 0.568±0.163  later 0.618±0.039  width pre 0.0437 post 0.0437
+rolling pre 0.952±0.001  pre_aggr 0.939±0.005  first200 0.801±0.052  later 0.948±0.003  width pre 0.0443 post 0.0840
+ACI     pre 0.950±0.001  pre_aggr 0.939±0.004  first200 0.939±0.012  later 0.951±0.001  width pre 0.0443 post 0.0817
+block-cov std 0.051 vs iid 0.034
+monitor frozen  detect 30/30  delay median 0.80 s (IQR 0.75-0.85)  false-alarm events/run 0.77  (runs with any: 17/30)
+monitor naive   detect 30/30  delay median 18.95 s (IQR 0.91-25.94)  false-alarm events/run 0.73  (runs with any: 16/30)
+monitor alpha   detect 30/30  delay median 0.73 s (IQR 0.61-0.89)  false-alarm events/run 0.60  (runs with any: 15/30)

@@ -1,0 +1,9 @@
+q_static 0.06119662072086066 q_oracle 0.22492827247016492
+run time 4.799890518188477
+seed 0 done 31.337713479995728
+kappa 0.6
+none    viol_pre 0.0000 viol_post 0.0000 max|i|_post 17.65 | rms_trk pre 1.043 post 0.726 | act pre 0.000 post 0.000 | q pre 0.000 post 0.000
+zero    viol_pre 0.0000 viol_post 0.0000 max|i|_post 17.65 | rms_trk pre 1.043 post 0.726 | act pre 0.000 post 0.000 | q pre 0.000 post 0.000
+fixed   viol_pre 0.0000 viol_post 0.0000 max|i|_post 17.65 | rms_trk pre 1.043 post 0.726 | act pre 0.000 post 0.000 | q pre 0.088 post 0.077
+aci     viol_pre 0.0000 viol_post 0.0000 max|i|_post 17.69 | rms_trk pre 1.043 post 0.727 | act pre 0.000 post 0.005 | q pre 0.086 post 0.282
+oracle  viol_pre 0.0000 viol_post 0.0000 max|i|_post 17.65 | rms_trk pre 1.043 post 0.726 | act pre 0.000 post 0.000 | q pre 0.323 post 0.281
